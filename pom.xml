@@ -93,12 +93,12 @@
 	</dependencies>	
 	<distributionManagement>
 	    <repository>
-	      <id>admin</id>
+	      <id>http://3.94.121.195:8081/repository/tesla/</id>
 	      <url>http://http://3.94.121.195:8081/repository/tesla/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>admin</id>
+	      <id>http://3.94.121.195:8081/repository/tesla-/</id>
 	      <url>http://3.94.121.195:8081/repository/tesla-/</url>
 	    </snapshotRepository>
 	    
