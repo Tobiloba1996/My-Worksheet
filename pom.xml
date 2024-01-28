@@ -94,12 +94,12 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <url>http://174.129.58.101:8081/repository/tesla/</url>
+	      <url>http://54.196.46.51:8081/repository/tesla/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <url>http://174.129.58.101:8081/repository/tesla-/</url>
+	      <url>http://54.196.46.51:8081/repository/tesla-/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
