@@ -155,7 +155,7 @@
 						<type>runtime</type>
 						<properties>
 							<cargo.remote.uri>http://44.223.20.161:8080/manager/text</cargo.remote.uri>
-							<cargo.username>tomcat</cargo.username>
+							<cargo.username>robot</cargo.username>
 							<cargo.password>admin123</cargo.password>
 						</properties>
 					</configuration>
