@@ -141,6 +141,29 @@
 					<wtpContextName>maven-web-application</wtpContextName>
 				</configuration>
 			</plugin>
+
+			<plugin>
+				<groupId>org.codehaus.cargo</groupId>
+				<artifactId>cargo-maven2-plugin</artifactId>
+				<version>1.8.3</version>
+				<configuration>
+					<container>
+						<containerId>tomcat9x</containerId>
+						<type>remote</type>
+					</container>
+					<configuration>
+						<type>runtime</type>
+						<properties>
+							<cargo.hostname>44.223.20.161</cargo.hostname>
+							<cargo.protocol>http</cargo.protocol>
+							<cargo.servlet.port>8080</cargo.servlet.port>
+							<cargo.username>tomcat</cargo.username>
+							<cargo.password>admin123</cargo.password>
+						</properties>
+					</configuration>
+				</configuration>
+			</plugin>
+
 			
 </plugins>
 	</build>
