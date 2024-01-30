@@ -154,9 +154,7 @@
 					<configuration>
 						<type>runtime</type>
 						<properties>
-							<cargo.hostname>44.223.20.161</cargo.hostname>
-							<cargo.protocol>http</cargo.protocol>
-							<cargo.servlet.port>8080</cargo.servlet.port>
+							<cargo.remote.uri>http://44.223.20.161:8080/manager/text</cargo.remote.uri>
 							<cargo.username>tomcat</cargo.username>
 							<cargo.password>admin123</cargo.password>
 						</properties>
